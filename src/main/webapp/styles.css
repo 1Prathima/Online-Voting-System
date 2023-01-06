@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	background-image: url("https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
+
+nav{
+	background-color: orange;
+	font-size: 35px;
+	color: white;
+	display: flex;
+	justify-content: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav a{
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+nav a:hover{
+	color: black;
+}
+
+.form-container{
+	background-color: #FEFCF3;
+	font-size: 26px;
+	width: 48%;
+	display: flex;
+	justify-content: center;
+	margin-left: 49%;
+	margin-top: 8%;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+
+.form-container input{
+	width: 70%;
+	height: 30px;
+	margin-top: 25px;
+	font-size: 13.5px;
+	background-color: #82AAE3;
+}
+
+.form-container button{
+	width: 70%;
+	height: 30px;
+	margin-top: 25px;
+	font-size: 13.5px;
+	background-color: #82AAE3;
+}

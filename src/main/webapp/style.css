@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body{
+	margin:0;
+	background-image: url("https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+nav{
+	background-color: orange;
+	font-size: 35px;
+	color: white;
+	display: flex;
+	justify-content: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav a{
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+nav a:hover{
+	color: black;
+}
+
+.form-container{
+	background-color: #FEFCF3;
+	font-size: 26px;
+	width: 48%;
+	display: flex;
+	justify-content: center;
+	margin-left: 49%;
+	margin-top: 6%;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	opacity: 0.8;
+}
+
+.form-container label{
+	margin-left: 38%;
+}
+
+.form-container input, textarea, select{
+	width: 70%;
+	height: 30px;
+	margin-top: 25px;
+	margin-left:16%;
+	margin-bottom: 15px;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: #4B56D2;
+}
+
+.form-container select{
+	height: 35px;
+}
+
+.form-container button{
+	width: 70%;
+	height: 40px;
+	margin-top: 25px;
+	margin-left: 16%;
+	margin-bottom: 15px;
+	font-size: 18px;
+	border-radius: 20px;
+	background-color: #4B56D2;
+	cursor: pointer;
+}
+
+.form-container a{
+	font-size: 22px;
+	margin-left: 43%;
+	margin-top: 20px;
+	color: black;
+}
+
+.form-container a:hover{
+	color: #4B56D2;
+}
+
+.welcome-form{
+	padding-top:20px;
+	padding-bottom: 20px;
+}
+
+.about{
+	font-size: 22px;
+	font-family: Helvetica;
+	width: 100vx;
+	height: 80vh;
+	padding-left: 30px;
+	opacity: 0.8;
+	background-color: #FEFCF3;
+}
+
+.about p{
+	padding-top: 40px;
+	font-weight: bold;
+}
+
+.about img{
+	width: 300px;
+	height: 400px;
+	margin-right:10px;
+	margin-top: 50px;
+}
+
+.table{
+	background-color: #FFF7E9;
+	height: 87vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+
+.table img{
+	width: 100px;
+	height: 100px;
+}
+
+.table td,th{
+	padding: 10px 60px;
+}
